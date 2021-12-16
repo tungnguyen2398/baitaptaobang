@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .age,
+        .salary {
+            width: 50%;
+        }
+
+        #product {
+            margin: 6px;
+        }
+        
+        pre {
+            margin: 0;
+        }
+        .pay {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Market Research Survey</h1>
+    <p>please take a few moments to complete this satisfaction survey</p>
+    <br>
+    <p><strong>What is your age range?</strong></p>
+    <select class="age">
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-50">35-50</option>
+        <option value="50+">50+</option>
+    </select>
+    <p><strong>What is your yearly income range?</strong></p>
+    <select name="" class="salary">
+        <option value="0-25">$0 - $25000</option>
+        <option value="2501-5000">$25001 - $50000</option>
+        <option value="5001-10000">$50001 - $100000</option>
+        <option value="10000+">$100000+</option>
+    </select>
+    <p><strong>Gender identity</strong></p>
+    <input type="radio" name="gender" id=""> Male <br>
+    <input type="radio" name="gender" id=""> Female <br>
+    <input type="radio" name="gender" id=""> Nonbinary <br>
+    <input type="radio" name="gender" id=""> other <br>
+    <input type="text" size="20" maxlength="250">
+    <p>Maximum of 250 characters. </p>
+    <p><strong>Which of the following products have your purchased in the last 2 months. Please check all that apply.
+        </strong></p>
+    <input type="checkbox" name="purchased" id="product"> Product 1 <br>
+    <input type="checkbox" name="purchased" id="product"> Product 2 <br>
+    <input type="checkbox" name="purchased" id="product"> Product 3
+    <p><strong>How often would you use our new product?</strong></p>
+    <input type="radio" name="oftenuse" id="product"> Daily <br>
+    <input type="radio" name="oftenuse" id="product"> Weekly <br>
+    <input type="radio" name="oftenuse" id="product"> Monthly
+    <p><strong>What would you pay for the new product?</strong></p>
+    <p class="pay">$
+        <input type="text" size="5"><span>.</span>
+        <input type="text" maxlength="2" size="1">
+        <pre>  Dollars   Cents</pre>
+    </p>
+</body>
+
+</html>
